@@ -1,0 +1,7 @@
+#Framework packages
+django
+djangorestframework
+drf-spectacular
+
+#Dynamodb ORM packages
+pynamodb
