@@ -56,11 +56,13 @@ MIDDLEWARE = [
 
 REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
+    'DEFAULT_PERMISSION_CLASSES': [],
 }
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "FLEET API SERVER",
-    "DESCRIPTION": "API documentation",
+    "TITLE": "FLEET DATA API SERVER",
+    "DESCRIPTION": "API documentation for Fleet Data",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
