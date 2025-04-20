@@ -3,10 +3,17 @@
 
 # FLEET DATA - DJANGO REST FRAMEWORK
 
+### Block diagram
+<img width="644" alt="Screenshot 2025-04-19 at 11 54 18 PM" src="https://github.com/user-attachments/assets/9c6a6ae9-6657-43d8-b22c-2d7784f4f823" />
+
+
 ### Introduction
 This module does the following operations:
-* Expose REST APIs to POST Vehicle Inventory Data, Operating Data, User Data and Driver data
 * Create Dynamodb tables and store the received data onto respective tables
+* Expose REST APIs to perform CRUD operations on Vehicle Data, Vehicle Operating Data, User Data and Driver data
+
+### REST-API overview
+<img width="787" alt="Screenshot 2025-04-19 at 11 50 00 PM" src="https://github.com/user-attachments/assets/1a609294-d303-4185-a9c3-541fbcb1cdcc" />
 
 
 ### Python virtual environment setup
